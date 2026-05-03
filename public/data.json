@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch. Master HTML, CSS, JavaScript, Node.js, and databases in one comprehensive course.",
+    "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=600",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Sarah Chen",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Design beautiful, user-centred interfaces using Figma. Covers design systems, prototyping, and usability research methods.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600",
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Python for Data Science & ML",
+    "instructor": "Ahmed Karimi",
+    "duration": "30 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Dive deep into data analysis, visualisation, and machine learning using Python, pandas, NumPy, and scikit-learn.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
+    "category": "Data"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Strategy",
+    "instructor": "Lisa Patel",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Build high-converting marketing funnels. Learn SEO, paid ads, email campaigns, and social media growth tactics.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600",
+    "category": "Business"
+  },
+  {
+    "id": 5,
+    "title": "Ethical Hacking & Cybersecurity",
+    "instructor": "Marcus Webb",
+    "duration": "25 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Learn penetration testing, network security, and vulnerability assessment. Prepare for CEH and CompTIA Security+ exams.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600",
+    "category": "Security"
+  },
+  {
+    "id": 6,
+    "title": "iOS & Android App Development",
+    "instructor": "Yuki Tanaka",
+    "duration": "28 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile apps with React Native. Publish to both the App Store and Google Play from a single codebase.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
+    "category": "Mobile"
+  }
+]
