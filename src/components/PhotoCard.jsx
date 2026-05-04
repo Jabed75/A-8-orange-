@@ -1,5 +1,6 @@
 import { Button, Card } from "@heroui/react";
 import Image from 'next/image';
+import Link from "next/link";
 
 const PhotoCard = ({ photo }) => {
     return (
@@ -29,7 +30,7 @@ const PhotoCard = ({ photo }) => {
                     <span className="text-yellow-500">★</span>
                 </div>
             </div>
-            <Button className={'w-full'}>View Details</Button>
+            <Link href={`/carddetails/${photo.id}`}><Button className={'w-full'}>View Details</Button></Link>
         </Card>
     );
 };
