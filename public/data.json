@@ -64,5 +64,71 @@
     "description": "Build cross-platform mobile apps with React Native. Publish to both the App Store and Google Play from a single codebase.",
     "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
     "category": "Mobile"
+  },
+  {
+    "id": 7,
+    "title": "AWS Cloud Practitioner & DevOps",
+    "instructor": "Raj Nair",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Master AWS core services, CI/CD pipelines, Docker, and Kubernetes for modern cloud deployments.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600",
+    "category": "Cloud"
+  },
+  {
+    "id": 8,
+    "title": "Generative AI & Prompt Engineering",
+    "instructor": "Priya Sharma",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Build LLM-powered applications, master prompt design, and deploy AI tools using OpenAI and LangChain.",
+    "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600",
+    "category": "AI"
+  },
+  {
+    "id": 9,
+    "title": "Digital Photography & Lightroom",
+    "instructor": "Emma Voss",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn camera fundamentals, composition, lighting, and professional photo editing in Adobe Lightroom.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600",
+    "category": "Photography"
+  },
+  {
+    "id": 10,
+    "title": "Personal Finance & Investing",
+    "instructor": "David Kim",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Budgeting, stock market basics, ETFs, and retirement planning to build long-term financial freedom.",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600",
+    "category": "Finance"
+  },
+  {
+    "id": 11,
+    "title": "English for Professionals",
+    "instructor": "Claire Dubois",
+    "duration": "16 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Boost business English skills — presentations, emails, meetings, and confident workplace communication.",
+    "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600",
+    "category": "Language"
+  },
+  {
+    "id": 12,
+    "title": "Video Editing with Premiere Pro",
+    "instructor": "Carlos Mendez",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Professional video editing, colour grading, motion graphics, and export workflows for YouTube and film.",
+    "image": "https://images.unsplash.com/photo-1536240478700-b869ad10e09b?w=600",
+    "category": "Video"
   }
 ]
