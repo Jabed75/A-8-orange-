@@ -30,7 +30,7 @@ const router= useRouter()
         password,
         image,
     })
-    console.log({data, error});
+    // console.log({data, error});
 
     if(!error){
       router.push('/')
@@ -108,6 +108,8 @@ const router= useRouter()
           </Button>
         </div>
       </Form>
+      
+     
     </Card>
   );
 }
