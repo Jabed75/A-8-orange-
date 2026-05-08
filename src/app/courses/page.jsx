@@ -2,7 +2,7 @@ import PhotoCard from '@/components/PhotoCard';
 
 const AllCards = async () => {
     
-    const res = await fetch('http://localhost:3000/data.json', { cache: 'no-store' });
+    const res = await fetch('https://a-8-orange-kawp.vercel.app/data.json', { cache: 'no-store' });
     const photos = await res.json();
 
     return (

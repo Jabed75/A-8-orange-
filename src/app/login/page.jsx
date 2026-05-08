@@ -3,7 +3,7 @@
 import { authClient } from "@/lib/auth-client";
 import { GrGoogle } from "react-icons/gr";
 import { Check } from "@gravity-ui/icons";
-import { toast } from "react-toastify";
+
 import {
   Button,
   Card,
@@ -28,16 +28,9 @@ export default function LoginPage() {
         callbackURL: '/'
        
     })
-    if (error) {
-      // লগইন ফেইল করলে এরর টোস্ট
-      toast.error(error.message || "লগইন করা সম্ভব হয়নি!");
-    } else {
-      // লগইন সফল হলে সাকসেস টোস্ট
-      toast.success("লগইন সফল হয়েছে!");
-    }
-    // -------------------------
+   
   
-    // console.log({data, error});
+
 
   };
   const handleGoogleSignIn= async() =>{
