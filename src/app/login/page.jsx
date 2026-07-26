@@ -3,6 +3,7 @@
 import { authClient } from "@/lib/auth-client";
 import { GrGoogle } from "react-icons/gr";
 import { Check } from "@gravity-ui/icons";
+import { toast } from "react-toastify";
 
 import {
   Button,
@@ -30,7 +31,7 @@ export default function LoginPage() {
     })
    
   
-
+  
 
   };
   const handleGoogleSignIn= async() =>{
@@ -38,6 +39,7 @@ export default function LoginPage() {
       provider: 'google'
     })
   }
+  
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">

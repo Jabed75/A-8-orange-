@@ -5,7 +5,7 @@ const PhotoDetailsPage = async ({ params }) => {
     // 1. Await params properly
     const { id } = await params;
 
-    // 2. Fetch the data
+   
     const res = await fetch('https://a-8-orange-kawp.vercel.app/data.json', {
         cache:'no-store'
     });
@@ -24,10 +24,10 @@ const PhotoDetailsPage = async ({ params }) => {
 
     return (
         <div className="min-h-screen bg-gray-100 p-6 md:p-12 flex justify-center items-center">
-            {/* Card Container */}
+            
             <div className="bg-white rounded-3xl shadow-xl border border-gray-200 p-8 max-w-sm w-full transition-all duration-300 hover:shadow-2xl hover:border-gray-300">
                 
-                {/* Small Image Container (Top Left/Center) */}
+                
                 <div className="relative w-100 h-70 mb-6 rounded-2xl overflow-hidden border-2 border-gray-100 shadow-inner">
                     <Image 
                         src={photo.image || "/placeholder.jpg"} 
