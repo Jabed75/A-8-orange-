@@ -23,7 +23,7 @@ const Navbar = () => {
             height={30}
             className="object-cover h-auto w-auto"
           />
-          <h3 className="font-black text-lg">Orange</h3>
+          <h3 className="font-black text-lg">Online Learning Platform</h3>
         </div>
 
         <ul className="flex items-center gap-5 text-sm">
